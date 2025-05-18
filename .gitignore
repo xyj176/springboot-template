@@ -21,4 +21,25 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
-replay_pid*
+
+# Compiled class file
+# ide file
+*.classpath
+*.project
+*.iml
+*.idea
+*.settings
+# Log file
+
+# Package Files #
+*.bat
+*.out
+
+target/
+*/*.iml
+*/*.factorypath
+*/target/
+
+data/
+log/
+LOCAL_DATA_LIBRARY/
