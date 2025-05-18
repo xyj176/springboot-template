@@ -6,3 +6,5 @@ server:
 spring:
   application:
     name: springboot-template
+  profiles:
+    active: @spring.profiles.active@
